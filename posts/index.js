@@ -8,7 +8,7 @@ const posts = {}
 app.use(bodyParser.json());
 app.use(cors());
 
-
+//aaa
 app.get('/posts', (req,res) =>{
     res.send(posts);
 });
