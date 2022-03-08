@@ -36,7 +36,7 @@ app.post('/posts/:id/comments', async (req, res) => {
   res.status(201).send(comments);
 });
 
-app.post('/events', (req,res) =>{
+app.post('/events', (req, res) =>{
   console.log("Comment Event Captured! ", req.body.type);
 
   res.send({});
