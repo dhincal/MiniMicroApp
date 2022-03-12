@@ -16,8 +16,6 @@ const CommentList = ({ comments }) => {
         return <li key={comment.id}><i className="text-warning">this comment is waiting to be approved</i></li>;
         break;
     }
-
-    return <li key={comment.id}>{comment.content}</li>;
   });
 
   return <ul>{renderedComments}</ul>;
