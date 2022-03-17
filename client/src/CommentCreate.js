@@ -23,9 +23,10 @@ const CommentCreate = ({ postId }) => {
             value={content}
             onChange={(e) => setContent(e.target.value)}
             className="form-control"
+            placeholder="What is your comment..."
           />
         </div>
-        <button className="btn btn-primary">Submit</button>
+        <button className="btn btn-success">Send Comment</button>
       </form>
     </div>
   );
