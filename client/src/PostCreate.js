@@ -22,7 +22,7 @@ const PostCreate = () => {
           <input
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            className="form-control"
+            className="form-control my-3"
             placeholder="What do you think about..."
           />
         </div>
